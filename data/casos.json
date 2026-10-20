@@ -1,0 +1,49 @@
+[
+ {
+  "id": "vmv5amtbugna73",
+  "escalado": {
+   "a": "CATHERINE",
+   "rol": "supervisor",
+   "por": "MARIA",
+   "ts": 1791819645405
+  },
+  "estado": "Finalizado",
+  "obs": "S",
+  "resp": "ALNEY ABREU",
+  "ts": 1791819647054,
+  "deps": [
+   {
+    "d": "Autorizaciones",
+    "procs": [],
+    "det": "DD",
+    "est": "En proceso"
+   },
+   {
+    "d": "Producción",
+    "procs": [
+     "Revisión de producción"
+    ],
+    "det": "SDD",
+    "est": "Pendiente"
+   }
+  ],
+  "finalizado": {
+   "texto": "fibal",
+   "por": "ALNEY ABREU",
+   "rol": "ejecutivo",
+   "ts": 1791829132701,
+   "desde": "Seguimiento"
+  },
+  "finTs": 1791829132701,
+  "historial": [
+   {
+    "id": "mmv5ksvbxiuk",
+    "accion": "Estado: Seguimiento → Finalizado",
+    "detalle": "fibal",
+    "por": "ALNEY ABREU",
+    "rol": "ejecutivo",
+    "ts": 1791829132701
+   }
+  ]
+ }
+]
