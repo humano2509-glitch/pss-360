@@ -1,0 +1,28 @@
+[
+ {
+  "id": "vmvh52bpl2cwpo",
+  "ts": 1792528294089,
+  "cod": "62",
+  "nom": "CLINICA COROMINAS",
+  "esp": "CLINICA",
+  "cen": "",
+  "zona": "ZONA NORTE",
+  "prov": "SANTIAGO DE LOS CABALLEROS",
+  "mun": "SANTIAGO",
+  "grupo": "",
+  "eje": "MIGUEL VERAS",
+  "fecha": "2026-10-20",
+  "hora": "16:31",
+  "tipo": "Presencial",
+  "motivos": [
+   "Seguimiento de producción"
+  ],
+  "resultado": "Positivo",
+  "notas": "Prueba",
+  "comp": "Prueba",
+  "proxima": "",
+  "sup": "",
+  "atn": null,
+  "evid": []
+ }
+]
