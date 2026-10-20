@@ -47,5 +47,38 @@
   "ts": 1791820858443,
   "asignadoA": "director",
   "abiertoPor": "MARIA"
+ },
+ {
+  "id": "smvb5ib1q6mwe",
+  "asunto": "EDWIN VAMOS A LLEVAR A LOS TALENTOS DE ZONA NORTE A UN RESORT TODO PAGO",
+  "detalle": "SE LO MERECEN ESOS MUCHACHO SEA CONCIENTE",
+  "por": "MARIA",
+  "sup": "",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "ESO TA MUY BIEN MARIA PARA MOTIVAR LOS MUCHACHOS A SEGUIR CON ESE DESEMPE;O",
+    "por": "Gerente",
+    "rol": "Gerente",
+    "ts": 1792166298157
+   },
+   {
+    "texto": "Caso abierto para Maria",
+    "por": "Gerente",
+    "rol": "Gerente",
+    "ts": 1792166305709
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "DE ACUERDO NOS FUIMOS EN NOVIEMBRE TODOS",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1792166331588
+  },
+  "ts": 1792166242670,
+  "asignadoA": "MARIA",
+  "abiertoPor": "Gerente",
+  "origen": "aprobacion"
  }
 ]
