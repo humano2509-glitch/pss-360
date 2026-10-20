@@ -243,5 +243,31 @@
    "ts": 1791818511424
   },
   "ts": 1791818368563
+ },
+ {
+  "id": "smvfb1j8r3g3w",
+  "asunto": "AUMENTO DE SUELDO PARA TODOS",
+  "detalle": "SI POR FAVOR",
+  "por": "GERMAN CANDELARIO",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "SR. Edwin Favor aprobar",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1792418023425
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "SI ADELANTE APROBADO",
+   "por": "Gerente",
+   "rol": "Gerente",
+   "ts": 1792418221594
+  },
+  "ts": 1792417402539,
+  "asignadoA": "Gerente",
+  "abiertoPor": "MARIA"
  }
 ]
