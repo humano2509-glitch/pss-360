@@ -15,5 +15,37 @@
    "ts": 1791814285147
   },
   "ts": 1791814256321
+ },
+ {
+  "id": "smv5fvivf7146",
+  "asunto": "MARIA DEME UN AUMENTO",
+  "detalle": "AUMENTO",
+  "por": "GERMAN CANDELARIO",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "si dale paya dejame psarte con ewdqin",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1791820999050
+   },
+   {
+    "texto": "dale que ese ees duro y dale tambien a moiguel",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1791821068746
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "dale que ese ees duro y dale tambien a moiguel",
+   "por": "Director",
+   "rol": "director",
+   "ts": 1791821078561
+  },
+  "ts": 1791820858443,
+  "asignadoA": "director",
+  "abiertoPor": "MARIA"
  }
 ]
