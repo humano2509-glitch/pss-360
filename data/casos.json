@@ -52,5 +52,67 @@
   "obs": "prueba",
   "resp": "LUIS",
   "ts": 1791811160134
+ },
+ {
+  "id": "vmv5jrhjavfisw",
+  "historial": [
+   {
+    "id": "mmv5js0f5jpz",
+    "accion": "Nota agregada",
+    "detalle": "Ya fue antendido",
+    "por": "MIGUEL",
+    "rol": "ejecutivo",
+    "ts": 1791827413025
+   },
+   {
+    "id": "mmv5ke1mxhr9",
+    "accion": "Estado: En seguimiento → Finalizado",
+    "detalle": "Resuelto por el ejecutivo",
+    "por": "MIGUEL",
+    "rol": "ejecutivo",
+    "ts": 1791828441033
+   },
+   {
+    "id": "mmv5ki2s4jfs",
+    "accion": "Nota agregada",
+    "detalle": "Muy bien",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1791828629140
+   },
+   {
+    "id": "mmv5ko6hpt3y",
+    "accion": "Estado: Finalizado → En seguimiento (caso reabierto)",
+    "detalle": "por loco",
+    "por": "MIGUEL",
+    "rol": "ejecutivo",
+    "ts": 1791828913885
+   },
+   {
+    "id": "mmv6pbkr41e6",
+    "accion": "Estado: En seguimiento → Finalizado",
+    "detalle": "Ya fue resuelto",
+    "por": "MIGUEL",
+    "rol": "ejecutivo",
+    "ts": 1791897190096
+   },
+   {
+    "id": "mmvfb3neuas8",
+    "accion": "Estado: Finalizado → En seguimiento (caso reabierto)",
+    "detalle": "Caso reabierto para continuar el seguimiento.",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1792417501254
+   }
+  ],
+  "estado": "En seguimiento",
+  "finalizado": {
+   "texto": "Ya fue resuelto",
+   "por": "MIGUEL",
+   "rol": "ejecutivo",
+   "ts": 1791897190096,
+   "desde": "En seguimiento"
+  },
+  "finTs": 1791897190096
  }
 ]
