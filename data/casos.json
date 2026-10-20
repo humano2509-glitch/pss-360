@@ -173,5 +173,35 @@
    "desde": "Seguimiento"
   },
   "finTs": 1791836446270
+ },
+ {
+  "id": "vmvaxypg6i025n",
+  "historial": [
+   {
+    "id": "mmvfazpu06x9",
+    "accion": "Nota agregada",
+    "detalle": "prueba",
+    "por": "GERMAN CANDELARIO",
+    "rol": "ejecutivo",
+    "ts": 1792417317768
+   },
+   {
+    "id": "mmvfb06g3tsj",
+    "accion": "Estado: En seguimiento → Finalizado",
+    "detalle": "resuelto",
+    "por": "GERMAN CANDELARIO",
+    "rol": "ejecutivo",
+    "ts": 1792417339299
+   }
+  ],
+  "estado": "Finalizado",
+  "finalizado": {
+   "texto": "resuelto",
+   "por": "GERMAN CANDELARIO",
+   "rol": "ejecutivo",
+   "ts": 1792417339299,
+   "desde": "En seguimiento"
+  },
+  "finTs": 1792417339299
  }
 ]
