@@ -1,0 +1,19 @@
+[
+ {
+  "id": "smv5by0n5by50",
+  "asunto": "Aprobar Visita al doctor en Corominas",
+  "detalle": "Necesita un seguimiento de como se usa la plataforma",
+  "por": "MIGUEL",
+  "sup": "MARIA",
+  "estado": "Rechazada",
+  "seg": [],
+  "dec": {
+   "res": "Rechazada",
+   "texto": "No puede ser aprobada",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791814285147
+  },
+  "ts": 1791814256321
+ }
+]
