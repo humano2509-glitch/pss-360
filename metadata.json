@@ -1,0 +1,6 @@
+{
+  "name": "Humano Seguros · PSS 360",
+  "description": "Gestión 360, visitas, auditoría y seguimiento de Prestadores de Servicios de Salud (PSS)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
