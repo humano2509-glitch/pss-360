@@ -213,5 +213,35 @@
    "ts": 1791814900250
   },
   "ts": 1791814834793
+ },
+ {
+  "id": "smv5ee5o345ny",
+  "asunto": "MIGUEL QUIERE MAS ARROZ",
+  "detalle": "DIGAME SI LE DAMO",
+  "por": "ALNEY ABREU",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "SI DALE A ESE TALENTO",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1791818388044
+   },
+   {
+    "texto": "OK ESTA BIEN LE DIMOS",
+    "por": "ALNEY ABREU",
+    "rol": "ejecutivo",
+    "ts": 1791818410915
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "OK APROBADO",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791818511424
+  },
+  "ts": 1791818368563
  }
 ]
