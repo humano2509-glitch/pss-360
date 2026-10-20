@@ -203,5 +203,19 @@
    "desde": "En seguimiento"
   },
   "finTs": 1792417339299
+ },
+ {
+  "id": "vmvfb4mm100r7y",
+  "estado": "En seguimiento",
+  "historial": [
+   {
+    "id": "mmvfb4xkxvyq",
+    "accion": "Estado: Sin atender → En seguimiento",
+    "detalle": "s",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1792417561089
+   }
+  ]
  }
 ]
