@@ -269,5 +269,32 @@
   "ts": 1792417402539,
   "asignadoA": "Gerente",
   "abiertoPor": "MARIA"
+ },
+ {
+  "id": "smv5f1h14ezk0",
+  "asunto": "SU EQUIPO ES DURO",
+  "detalle": "MUY DURO DELE UN AUMENTO",
+  "por": "Director",
+  "sup": "",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "ME ALEGRO VAMOS A DARLE ESO",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1791819483294
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "AAPROBADO",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791819492359
+  },
+  "ts": 1791819456377,
+  "asignadoA": "MARIA",
+  "abiertoPor": "director",
+  "origen": "aprobacion"
  }
 ]
