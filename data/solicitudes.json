@@ -140,5 +140,22 @@
   "ts": 1791819212779,
   "asignadoA": "MARIA",
   "abiertoPor": "director"
+ },
+ {
+  "id": "smv5c8yj7s79y",
+  "asunto": "peruba",
+  "detalle": "prueba",
+  "por": "MIGUEL",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "ok",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791814798376
+  },
+  "ts": 1791814766803
  }
 ]
