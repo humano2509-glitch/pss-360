@@ -114,5 +114,64 @@
    "desde": "En seguimiento"
   },
   "finTs": 1791897190096
+ },
+ {
+  "id": "vmv5futd4ptjtk",
+  "estado": "Finalizado",
+  "deps": [
+   {
+    "d": "Producción",
+    "procs": [
+     "Revisión de producción"
+    ],
+    "det": "",
+    "est": "En proceso"
+   },
+   {
+    "d": "Legal y cumplimiento",
+    "procs": [
+     "Cumplimiento normativo"
+    ],
+    "det": "",
+    "est": "Pendiente"
+   },
+   {
+    "d": "Tecnología",
+    "procs": [
+     "Soporte de acceso"
+    ],
+    "det": "",
+    "est": "Pendiente"
+   }
+  ],
+  "obs": "SI DALE PAYA TA LENTO",
+  "resp": "ALNEY ABREU",
+  "ts": 1791820951378,
+  "historial": [
+   {
+    "id": "mmv5p5iwmmwp",
+    "accion": "Nota agregada",
+    "detalle": "tt",
+    "por": "GERMAN CANDELARIO",
+    "rol": "ejecutivo",
+    "ts": 1791836441590
+   },
+   {
+    "id": "mmv5p5mima5i",
+    "accion": "Estado: Seguimiento → Finalizado",
+    "detalle": "dd",
+    "por": "GERMAN CANDELARIO",
+    "rol": "ejecutivo",
+    "ts": 1791836446270
+   }
+  ],
+  "finalizado": {
+   "texto": "dd",
+   "por": "GERMAN CANDELARIO",
+   "rol": "ejecutivo",
+   "ts": 1791836446270,
+   "desde": "Seguimiento"
+  },
+  "finTs": 1791836446270
  }
 ]
