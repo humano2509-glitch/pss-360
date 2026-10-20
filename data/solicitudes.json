@@ -189,5 +189,29 @@
   "ts": 1792153642044,
   "asignadoA": "MARIA",
   "abiertoPor": "director"
+ },
+ {
+  "id": "smv5caezsik34",
+  "asunto": "ah",
+  "detalle": "haha",
+  "por": "MIGUEL",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [
+   {
+    "texto": "uhvg",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1791814857685
+   }
+  ],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "hola",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791814900250
+  },
+  "ts": 1791814834793
  }
 ]
