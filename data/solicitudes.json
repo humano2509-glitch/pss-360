@@ -97,5 +97,22 @@
    "ts": 1791818333780
   },
   "ts": 1791818300949
+ },
+ {
+  "id": "smv5bzbd3y3v1",
+  "asunto": "Seguimiento",
+  "detalle": "Corominas",
+  "por": "MIGUEL",
+  "sup": "MARIA",
+  "estado": "Aprobada",
+  "seg": [],
+  "dec": {
+   "res": "Aprobada",
+   "texto": "De acuerdo",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791814333881
+  },
+  "ts": 1791814316871
  }
 ]
