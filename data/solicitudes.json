@@ -114,5 +114,31 @@
    "ts": 1791814333881
   },
   "ts": 1791814316871
+ },
+ {
+  "id": "smv5ew92j5p1g",
+  "asunto": "PRUEBA",
+  "detalle": "DDD",
+  "por": "ALNEY ABREU",
+  "sup": "MARIA",
+  "estado": "Pendiente",
+  "seg": [
+   {
+    "texto": "DSFFS",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1791819240091
+   },
+   {
+    "texto": "Caso abierto para Maria",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1791824136430
+   }
+  ],
+  "dec": null,
+  "ts": 1791819212779,
+  "asignadoA": "MARIA",
+  "abiertoPor": "director"
  }
 ]
