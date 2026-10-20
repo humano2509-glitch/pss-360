@@ -157,5 +157,37 @@
    "ts": 1791814798376
   },
   "ts": 1791814766803
+ },
+ {
+  "id": "smvay08cc2dmk",
+  "asunto": "requiero aumento",
+  "detalle": "no tengo cualto",
+  "por": "GERMAN CANDELARIO",
+  "sup": "MARIA",
+  "estado": "En seguimiento",
+  "seg": [
+   {
+    "texto": "si  aprobado eres muy duro edwin autorice",
+    "por": "MARIA",
+    "rol": "supervisor",
+    "ts": 1792153691903
+   },
+   {
+    "texto": "si aprobado ese muchacho es de lo bueno xd",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1792153724968
+   },
+   {
+    "texto": "Caso abierto para Maria",
+    "por": "Director",
+    "rol": "director",
+    "ts": 1792153734783
+   }
+  ],
+  "dec": null,
+  "ts": 1792153642044,
+  "asignadoA": "MARIA",
+  "abiertoPor": "director"
  }
 ]
