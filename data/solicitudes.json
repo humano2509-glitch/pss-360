@@ -80,5 +80,22 @@
   "asignadoA": "MARIA",
   "abiertoPor": "Gerente",
   "origen": "aprobacion"
+ },
+ {
+  "id": "smv5ecphw1s4z",
+  "asunto": "VISITA",
+  "detalle": "PRUEV",
+  "por": "ALNEY ABREU",
+  "sup": "MARIA",
+  "estado": "Rechazada",
+  "seg": [],
+  "dec": {
+   "res": "Rechazada",
+   "texto": "NO VA PAYA TALENTO",
+   "por": "MARIA",
+   "rol": "supervisor",
+   "ts": 1791818333780
+  },
+  "ts": 1791818300949
  }
 ]
