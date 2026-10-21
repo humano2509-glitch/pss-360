@@ -3,5 +3,11 @@
   "dia": 2,
   "semana": 10,
   "mes": 30
+ },
+ "supervisores": {
+  "list": [
+   "MARIA"
+  ],
+  "map": {}
  }
 }
