@@ -24,5 +24,31 @@
   "sup": "",
   "atn": null,
   "evid": []
+ },
+ {
+  "id": "vmviapgfjiwn4s",
+  "ts": 1792598237551,
+  "cod": "18841",
+  "nom": "ROSARIO AMADIS, JOAN FRANCISCO",
+  "esp": "ORTOPEDIA Y TRAUMATOLOGIA",
+  "cen": "",
+  "zona": "ZONA NORTE",
+  "prov": "MONSENOR NOUEL",
+  "mun": "BONAO",
+  "grupo": "",
+  "eje": "ALNEY ABREU",
+  "fecha": "2026-10-21",
+  "hora": "11:55",
+  "tipo": "WhatsApp",
+  "motivos": [
+   "Autorizaciones"
+  ],
+  "resultado": "Positivo",
+  "notas": "Doctor escribe para solicitar ser agregado en libre de papel y asi no tener que cargar las consultas en mis transacciones.",
+  "comp": "Se envía la solicitud vía teams a Randy Alcantara.",
+  "proxima": "2026-11-20",
+  "sup": "",
+  "atn": null,
+  "evid": []
  }
 ]
