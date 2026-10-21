@@ -1790,7 +1790,7 @@ document.addEventListener('click',async e=>{
 
 /* ================= servidor propio (REST genérico) ================= */
 /* ===== CONEXIÓN AL SERVIDOR (GitHub) ===== */
-const PSS_SERVER={url:'',hk:'X-PSS-Key',hv:''}; // pon aquí la URL del Worker y la clave compartida (ver LEEME.txt)
+   const PSS_SERVER={url:'https://delicate-bar-f93a.humano2509.workers.dev',hk:'X-PSS-Key',hv:'Hola12345'}; // pon aquí la URL del Worker y la clave compartida (ver LEEME.txt)
 let API=ls.get('hs_api',PSS_SERVER.url?PSS_SERVER:{url:'',hk:'',hv:''});
 function apiDb(){
   const hd=(j)=>{const h=j?{'Content-Type':'application/json'}:{};if(API.hk&&API.hv)h[API.hk]=API.hv;return h;};
