@@ -392,7 +392,7 @@ body{background:#D4EEF9 !important;}
 .locked{opacity:.6;}
 .login{position:fixed;inset:0;background:rgba(8,40,56,.55);display:grid;place-items:center;z-index:100;padding:16px;}
 .login-card{width:min(420px,100%);}
-body.r-ejecutivo .tab[data-tab="eq"],body.r-ejecutivo .tab[data-tab="panel"],body.r-ejecutivo .tab[data-tab="bi"],body.r-ejecutivo .tab[data-tab="sup"],body.r-supervisor .tab[data-tab="bi"],body.r-supervisor .tab[data-tab="sup"]{display:none!important;}
+body.r-ejecutivo .tab[data-tab="eq"],body.r-ejecutivo .tab[data-tab="panel"],body.r-ejecutivo .tab[data-tab="sup"],body.r-supervisor .tab[data-tab="bi"],body.r-supervisor .tab[data-tab="sup"]{display:none!important;}
 body.r-ejecutivo #ini-kpis>div:first-child,body.r-ejecutivo [data-act="pss-new"],body.r-ejecutivo [data-act="pss-import"]{display:none!important;}
 
 body:not(.r-ejecutivo) .tab[data-tab="sol"]{display:none!important;}
@@ -1319,7 +1319,7 @@ async function saveCsv(name,head,rows){
 function exportBI(){
   if(!visits.length){toast('Aún no hay visitas para exportar',true);return;}
   const head=['ID visita','Fecha','Hora','Año','Mes','Ejecutivo','Código PSS','Nombre PSS','Especialidad','Centro','Zona','Provincia','Municipio','Ejecutivo asignado','Tipo','Motivos','Resultado','Positivo','Notas','Compromisos','Próxima visita','Supervisor','Evidencias'];
-  const l=[...visits].sort((a,b)=>(a.fecha+a.hora).localeCompare(b.fecha+b.hora));
+  const l=visits.filter(visitaVisible).sort((a,b)=>(a.fecha+a.hora).localeCompare(b.fecha+b.hora));
   const rows=l.map(v=>{const p=BY.get(v.cod)||{};return [v.id,v.fecha,v.hora,+v.fecha.slice(0,4),+v.fecha.slice(5,7),tc(v.eje),v.cod,tc(v.nom),tc(v.esp),tc(v.cen),tc(v.zona),tc(v.prov),tc(v.mun),tc(p.eje||''),v.tipo,(v.motivos||[]).join(' | '),v.resultado,v.resultado==='Positivo'?1:0,v.notas,v.comp,v.proxima||'',tc(v.sup||SUP.map[v.eje]||''),(v.evid||[]).length];});
   saveCsv('Visitas_PowerBI.csv',head,rows);
 }
@@ -2634,7 +2634,7 @@ function applyRole(){
   if(sl)sl.innerHTML=`<b>${esc(tc(SES.nombre))}</b><br><span class="muted">${({ejecutivo:'Ejecutivo',supervisor:'Supervisor',Gerente:'Gerente'})[SES.rol]}</span>`;
   const mt=document.querySelector('.mtop');
   if(mt&&!document.getElementById('ses-m'))mt.insertAdjacentHTML('beforeend','<button type="button" class="chip" id="ses-m">Usuario</button>');
-  if((isEje()&&['eq','panel','bi','sup'].includes(tab))||(isSup()&&['bi','sup'].includes(tab))||(!isEje()&&tab==='sol'))go('ini');
+  if((isEje()&&['eq','panel','sup'].includes(tab))||(isSup()&&['bi','sup'].includes(tab))||(!isEje()&&tab==='sol'))go('ini');
   refreshAll();
 }
 document.addEventListener('submit',e=>{
